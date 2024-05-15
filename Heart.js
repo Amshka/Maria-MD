@@ -32,7 +32,7 @@ let afk = require("./Gallery/lib/afk");
 const { fetchBuffer, buffergif } = require("./Gallery/lib/myfunc2")
 
 /////log
- global.modnumber = '919060791616' 
+ global.modnumber = '94762383636' 
 //Gallery/database
 let ntilinkall =JSON.parse(fs.readFileSync('./Gallery/database/antilink.json'));
 // let autoblck =JSON.parse(fs.readFileSync('./Gallery/database/autoblock.json'));
@@ -45,9 +45,9 @@ let hit = JSON.parse(fs.readFileSync('./Gallery/database/total-hit-user.json'))
 const replay = (teks) => {
             Maria.sendMessage(m.chat, { text: teks}, { quoted: m})
         }
-const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-        const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-        const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+const xtime = moment.tz('Asia/Colombo').format('HH:mm:ss')
+        const xdate = moment.tz('Asia/Colombo').format('DD/MM/YYYY')
+        const time2 = moment().tz('Asia/Colombo').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
 var Ayushytimewisher = `Good Night 🌌`
  }
@@ -220,7 +220,7 @@ async function Telesticker(url) {
             data2 = await axios(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${fileId}`)
             result = {
             status: 200,
-            author: '💙𓆩‎✘AʏᴜSʜ✘𓆪_✰',
+            author: 'AMISHKA TEHJAN',
             url: "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + data2.data.result.file_path
             }
             mariayresult.push(result)
@@ -262,7 +262,7 @@ async function Telesticker(url) {
         }
         
         if (autobio) {
-            Maria.updateProfileStatus(`Hey, future leaders! 🌟 Maria-Md is here to inspire and lead, thanks to Ayush Botz, Inc. 🚀 ${runtime(process.uptime())} `).catch(_ => _)
+            Maria.updateProfileStatus(`---B-E-Y-O-N-D--T-O--T-H-E--E-N-D--- ${runtime(process.uptime())} `).catch(_ => _)
         }
         if (m.sender.startsWith('212') && global.anti212 === true) {
             return Maria.updateBlockStatus(m.sender, 'block')
@@ -796,7 +796,7 @@ break;
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: ' *🎐Maria Broadcast🎐* ',
+                                title: ' *🎐AMIZ Broadcast🎐* ',
                                 body: `Sent ${i.length} Group`,
                                 thumbnailUrl: 'https://telegra.ph/file/3fd18ee11521117c7c882.jpg',
                                 sourceUrl: global.link,
@@ -1084,16 +1084,9 @@ let repoInfo = await axios.get("https://api.github.com/repos/AYUSH-PANDEY023/Mar
         let repo = repoInfo.data;
         console.log(repo);
 
-   const scritxt = `*🚀𝑴𝒂𝒓𝒊𝒂-𝑩𝒐𝒕-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
-  *🌟Creator:* 𝑨𝒚𝒖𝒔𝒉 𝒑𝒂𝒏𝒅𝒆𝒚\n
-  *🌟 Repo:* ${repo.html_url}\n
-  *🌟 Total Forks:* ${repo.forks_count}\n
-  *⭐ Total Stars:* ${repo.stargazers_count}\n
-  *📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n
-  *📅 Last Updated:* ${repo.updated_at}\n
- 
-©️ *Ayush Bots inc* 
-*❝ Dont forget to give a Star ⭐ to the repo.*`
+   const scritxt = `*🚀AMIZBOT *\n
+  *🌟Creator:* AMISHKA TEHJAN\n
+ `
 
         Maria.sendMessage(from, { video: { url: 'https://media.tenor.com/Zco-fadJri4AAAPo/code-matrix.mp4' }, gifPlayback: true, caption: scritxt }, { quoted: m })
 }
@@ -1481,16 +1474,14 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
       case 'hii': case 'hi': case 'Hi':
        
         
-        let txxt = `*U^I^U ♡* Konichiwa ${pushname} Senpai, I'm MARIA-MD Created by
-
- *_Team Ayush_*.`
+        let txxt = `* ${pushname} hII I'M AMISHKA TEHJAN`
 
         Maria.sendMessage(m.chat, { image: { url: "https://graph.org/file/eb3821e4d2b0a54dd7ea6.jpg" }, caption: txxt}, { quoted: m });
         
         break;
       case "support":
      
-        let tex = `  [🎀𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋🎀]\n\n🔖_https://chat.whatsapp.com/FGPKxVnjgJ7KnBGiDeb4ij_`
+        let tex = ``
 
         await Maria.sendMessage(m.sender,{ video: {url: "https://media.tenor.com/q5Lo2BINkaUAAAPo/beast-tamer-kanade.mp4"}, caption: `${tex}`,gifPlayback: true},);
 
@@ -1499,7 +1490,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
 
       case "info":
             Maria.sendMessage(from, { react: { text: "", key: m.key }}) 
-        let pifx = `❁ ════ ❃•💙 *MARIA* 💙•❃ ════ ❁
+        let pifx = `❁ ════ ❃•💙 *AMIZ* 💙•❃ ════ ❁
 
 \`\`\`A FULL FLEDGED MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES\`\`\`
 
@@ -1581,9 +1572,9 @@ var inputnumber = text.split(" ")[0]
                     var anu1 = '401'
                 }
                 if (anu1 == '401' || anu1.status.length == 0) {
-                    nobio += `wa.me/${anu[0].jid.split("@")[0]}\n`
+                    nobio += `wa.me/94762383636`
                 } else {
-                    text66 += `📞 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n 🌐 ️*Bio :* ${anu1.status}\n⏳️*Last update :* ${moment(anu1.setAt).tz('Asia/Kolkata').format('HH:mm:ss DD/MM/YYYY')}\n\n`
+                    text66 += `📞 *Number:* wa.me/94762383636`
                 }
             } catch {
                 nowhatsapp += `${number0}${i}${number1}\n`
@@ -1878,15 +1869,15 @@ break;
 case 'shayari': {
 	if (!m.isGroup) return reply(mess.group)
 	const shayariLines = [
-  "Dil se roya humne, aankhon se nikla hai pyaar,\nZakhm gehra humne khaya, dil se hai yaar.\n",
-  "Khuda ke bando pe naaz hai insaan ko,\nApne hi hatho se khud ne ki hai tabaahi.\n",
-  "Mohabbat ek aisi bheed hai,\nJisme har ek dil hai tanha.\n",
-  "Dil ko chhune wale shabd kya kamaal ke hote hain,\nUnki misaalein di jaati hain, aashiq to sirf yaad kiye jaate hain.\n",
-  "Tere bina jeena kya, tere sang mar jaana hai,\nTeri baahon mein kho jaana, yahi toh pyaar ka asli matlab hai.\n",
-  "Mohabbat ka izhaar karne mein waqt toh lagta hai,\nPar sachai aur dil se nikle alfaz kabhi nahin bhoolte.\n",
-  "Har raat rote hain hum, har subah umeed se guzar jaati hai,\nKuchh rishte aise bhi hote hain, jinke saath guzarti zindagi bhi yaadon mein dafan ho jaati hai.\n",
-  "Rishte toh khoon se bhi gehre hote hain,\nPar woh rishte jo dil se jud jaate hain, unka toh koi saani nahin hota.\n",
-  "Mohabbat mein zindagi ko pyaari kar dena,\nAur pyaar mein zindagi ko jeena seekh lena,\nYahi toh hai asli mohabbat ka matlab.\n",
+  "We have cried from the heart, love has come out of the eyes,\nThe wounds have been deep, love has come from the heart.\n",
+  "Man is proud of God's hand,\nHe has caused destruction with his own hands.\n",
+  "Love is such a blood,\nIt has a lonely heart.\n",
+  "What are the wonders of choosing the words of your heart,\nUnki is the example of your caste, lovers are created only by remembering them.\n",
+  "What is there to live without you, I live with your blood, I live in your arms, this is the real meaning of love."
+  "It feels like time to express love,\nNever forget the true and true words that come from the heart.\n",
+  "Every night we cry, every morning we spend with hope,\nThere are small relationships like this, with whom even the life spent gets buried in memories.\n",
+  "Relations are based on blood, but those relationships are based on the heart, there is no meaning in them."
+  "To love life in love,\nAnd to learn to live life in love,\nThis is the real meaning of love."\n",
   
 ];
 
@@ -1949,21 +1940,19 @@ break;
                          
                            
   case 'menu': case 'help': case 'h': 
-      const txt = `╭─「 *Konichiwa* 」
+      const txt = `╭─「 *HELLO* 」
 │⋊ 𝕌𝕤𝕖𝕣: ${pushname} 
-│⋊ 𝔹𝕠𝕥:  ${botname}
+│⋊ 𝔹𝕠𝕥:  AMIZ-MD
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  *${prefix}*
 │⋊ 𝔻𝕒𝕥𝕖: ${xdate}
 │⋊ 𝕋𝕚𝕞𝕖:  ${xtime}
-│⋊ 𝕆𝕨𝕟𝕖𝕣: ${ownername}
+│⋊ 𝕆𝕨𝕟𝕖𝕣: AMISHKA TEHJAN PERERA
 │⋊ 𝕧𝕖𝕣𝕤𝕚𝕠𝕟: ${mver}
 │⋊ ℍ𝕠𝕤𝕥: ${os.hostname()}
 │⋊ ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞: ${os.platform()} 
 │⋊ ℝ𝕦𝕟𝕥𝕚𝕞𝕖: ${runtime(process.uptime())}
 │⋊ 𝕋𝕠𝕥𝕒𝕝𝕔𝕞𝕕: ${mariafeature()}
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://gg.gg/Maria-support
 ╰────────────┈平和
- 🎀𝐅𝐨𝐥𝐥𝐨𝐰 𝐨𝐧: https://www.instagram.com/ayushpandeyy_023
 
 Here's the list of my Commands.🔖
 ${readmore}
@@ -2187,8 +2176,8 @@ Cieeee, What's Going On❤️💖👀`,
                 externalAdReply: {
                   showAdAttribution: true,
                   containsAutoReply: true,
-                  title: ` ${global.botname}`,
-                  body: `${ownername}`,
+                  title: ` AMIZ-MD`,
+                  body: `AMISHKA THEJAN`,
                   previewType: "PHOTO",
                   thumbnailUrl: ``,
                   thumbnail: fs.readFileSync(
@@ -2702,17 +2691,12 @@ https://chat.whatsapp.com/${response}
 case 'developer':
 case 'dev':
     const devmod = `  🍥 *Moderators* 🍥\n\n
-*🎫Ayush* @919931122319
+*🎫AMISHKA* @94762383636
 
-*🎫xeon* @916909137213
-
-*🎫Pikachu* @918811074852
-
-*🎫OldUser* @918602239106
  \n
 \n📛*Don't Spam them to avoid Blocking !*\n\n For any help, type *${prefix}support* and ask in the group.\n\n*✨️Thanks for using Maria-Md* `;
 
-    Maria.sendMessage(m.chat, { text: devmod, mentions: ["919931122319@s.whatsapp.net", "918811074852@s.whatsapp.net", "916909137213@s.whatsapp.net","918602239106@s.whatsapp.net"] }, { quoted: m });
+    Maria.sendMessage(m.chat, { text: devmod, mentions: ["94762383636@s.whatsapp.net"] }, { quoted: m });
     break;
 
 
@@ -3189,7 +3173,7 @@ case 'chat':
         
 case "info":
             Maria.sendMessage(from, { react: { text: "", key: m.key }}) 
-        let ifx = `❁ ════ ❃•💙 *MARIA* 💙•❃ ════ ❁
+        let ifx = `❁ ════ ❃•💙 *AMIZ* 💙•❃ ════ ❁
 
 \`\`\`A FULL FLEDGED MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES\`\`\`
 
@@ -3197,10 +3181,10 @@ case "info":
 \`\`\`A simple and easy-to-use WhatsApp bot project based on Multi-Device Baileys and written in JavaScript\`\`\`
 
 ❁ ══════ ❃•📄 *NOTE* 📄•❃ ══════ ❁
-\`\`\`This bot is a free open source project by THE TEAM AYUSH\`\`\`
+\`\`\`This bot is a free open source project \`\`\`
 
 ❁ ═════ ❃•📑 *GITHUB* 📑•❃ ═════ ❁
-*_LINK:- https://github.com/AYUSH-PANDEY023/Maria-MD_*
+*_LINK:- https://github.com/Amshka
 
 
 ❁ ═══ ❃•✍🏻 *CONTRIBUTE* ✍🏻•❃ ═══ ❁
@@ -3216,25 +3200,7 @@ Maria.sendMessage(m.chat, { image: { url: "https://graph.org/file/c8ad7dc322c0b9
         let tifx = `*𝚃𝙴𝚁𝙼𝚜 𝙰𝙽𝙳 𝙲𝙾𝙽𝙳𝙸𝚃𝙸𝙾𝙽*\n\n
 ⍟ *────────────────* ⍟ 
 
-📝 Note: Beware of fake Maria-MD bots! People may falsely claim to represent Maria-MD. Please exercise caution.
-
-_Whatsapp Bots have become increasingly popular, but with that comes the risk of encountering fake accounts. Stay vigilant._
-
-*Ban from using the bot:*
-
-*⛔ Breaking the following rules will result in a ban:*
-*⛔ Calling any of the bot numbers*
-*⛔ Using unlisted commands (commands not listed in help)*
-*⛔ Insulting / ignoring bot staff / warnings*
-
-*Contact information:*
-
-_We will update the bot's terms and conditions periodically, so it's your responsibility to check our support groups for updates._
-_If you have any questions regarding our terms, please reach out to us._
-_For everything else, use common sense._
-
-*FUTURE IS NOW🚀~MARIA-MD*
-*_🚀Team Ayush_*
+I'M NOT GIVE ANY RESPONSIBLITILY ABOUT THAT
 
 ⍟ *────────────────* ⍟`
 
@@ -3243,7 +3209,7 @@ Maria.sendMessage(m.chat, { image: { url: "https://graph.org/file/c8ad7dc322c0b9
 /////////////////////////////////////////////////////
 
 if(isCmd){
-          reply (`No such command, Baka!`)
+          reply (`No such command, Shit!`)
   
       }	 			
 
